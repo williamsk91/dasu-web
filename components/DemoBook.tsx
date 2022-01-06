@@ -1,11 +1,12 @@
-export const SampleBook = () => {
+export const DemoBook = () => {
+  console.log("process.env.DEMO_URL: ", process.env.DEMO_URL);
   return (
     <div className="w-full">
       <iframe
         id="inlineFrameExample"
         title="Dasu demo book"
         className="w-full h-[75vh] border-4 rounded-lg"
-        src="http://localhost:3002/demo/sicp/1%20Building%20Abstraction%20with%20Procedures/"
+        src={process.env.DEMO_URL}
       />
     </div>
   );

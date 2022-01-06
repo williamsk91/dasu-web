@@ -2,9 +2,9 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import { Contact } from "../components/Contact";
+import { DemoBook } from "../components/DemoBook";
 import { Features } from "../components/Features";
 import { Logo } from "../components/Logo";
-import { SampleBook } from "../components/SampleBook";
 import { Spacer } from "../components/Spacer";
 import { Steps } from "../components/Steps";
 
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         </h1>
 
         <Spacer />
-        <SampleBook />
+        <DemoBook />
 
         <Spacer />
         <Contact />
