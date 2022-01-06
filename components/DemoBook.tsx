@@ -1,5 +1,4 @@
 export const DemoBook = () => {
-  console.log("process.env.DEMO_URL: ", process.env.DEMO_URL);
   return (
     <div className="w-full">
       <iframe
