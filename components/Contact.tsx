@@ -6,7 +6,7 @@ export const Contact = () => {
       <br />
       <a
         href="mailto:hidasudasu@gmail.com"
-        className="underline underline-offset-4 decoration-4 decoration-wavy decoration-red-500"
+        className="underline underline-offset-4 decoration-4 decoration-wavy decoration-red-500 hover:bg-red-50 transition-colors p-4 pb-8 rounded-lg"
       >
         hidasudasu@gmail.com
       </a>
