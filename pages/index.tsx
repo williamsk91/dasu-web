@@ -23,7 +23,10 @@ const Home: NextPage = () => {
         </div>
 
         <h1 className="text-7xl text-slate-600 text-center mt-28 leading-tight">
-          Publish Your <span className="underline decoration-wavy">Book</span>
+          Publish Your{" "}
+          <span className="underline decoration-wavy decoration-red-500">
+            Book
+          </span>
           <br />
           Online for Free
         </h1>
