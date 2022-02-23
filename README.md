@@ -1,6 +1,6 @@
 ## Website
 
-Marketing website for Dasu
+Marketing website for Dasu (https://dasu-web.vercel.app/)
 
 Book conversion and generator repo: https://github.com/williamsk91/dasu
 
